@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#output {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.shrek{
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  margin: 0px;
+}
+
+.heart{
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  margin: 0px;
+}
+
+.image{
+  text-align:center;
+  margin: 0px;
+}
+
+.centered {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 500px;
+  left: 870px;
+  transform: translate(-50%, -50%);
+}
+
